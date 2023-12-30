@@ -29,7 +29,36 @@ body {
 .grid-controls {
   display: flex;
   flex-direction: column;
-  background-color: #faebd7;
-  width: 300px;
+  justify-content: center;
+  background-color: white;
+  width: 200px;
   height: 500px;
+  padding: 50px;
+}
+.slider-value {
+  text-align: center;
+}
+.active-button {
+  background-color: black;
+  color: white;
+}
+
+#colorPicker {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto;
+}
+#colorPicker::-webkit-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+#colorPicker::-moz-color-swatch {
+  border-radius: 15px;
+  border: none;
 }
