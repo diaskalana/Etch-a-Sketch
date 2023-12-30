@@ -23,9 +23,9 @@ body {
   padding: 0;
   background-color: white;
 }
-.grid-item:hover {
+/* .grid-item:hover {
   background-color: black;
-}
+} */
 .grid-controls {
   display: flex;
   background-color: antiquewhite;
