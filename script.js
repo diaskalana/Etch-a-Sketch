@@ -4,10 +4,14 @@ const eraser = document.getElementById('eraser')
 const singleColorBtn = document.getElementById('singleColor')
 const clear = document.getElementById('clear')
 const randomColorBtn = document.getElementById('randomColor')
+const year = document.querySelector('.year')
+
 
 // To invoke main function and to apply default settings
 construct()
 singleColorBtn.classList.add('active-button')
+year.textContent = new Date().getFullYear();
+
 
 // To disable drag and drop feature
 document.body.addEventListener('dragstart', event => {
@@ -26,7 +30,7 @@ colorPicker.onchange = () => {
 
 // To enable erasing feature
 eraser.addEventListener('click', () => {
-    singleColor = "#f5f5f5"
+    singleColor = "white"
     deselectBtn();
     eraser.classList.add('active-button')
 })
