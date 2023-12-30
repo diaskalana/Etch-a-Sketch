@@ -10,7 +10,7 @@ body {
   width: 100vw;
 }
 .grid-container {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   width: 500px;
   height: 500px;
   margin: 0;
@@ -21,14 +21,15 @@ body {
 .grid-item {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: #f5f5f5;
 }
 /* .grid-item:hover {
   background-color: black;
 } */
 .grid-controls {
   display: flex;
-  background-color: antiquewhite;
+  flex-direction: column;
+  background-color: #faebd7;
   width: 300px;
   height: 500px;
 }
