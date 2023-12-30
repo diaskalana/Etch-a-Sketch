@@ -8,5 +8,9 @@ for (let i = 1; i <= (itemCount ** 2); i++) {
 
     gridItem.classList.add('grid-item')
     gridContainer.appendChild(gridItem);
+
+    gridItem.addEventListener('mouseenter', () => {
+        gridItem.style.backgroundColor = 'black'
+    })
 }
 
